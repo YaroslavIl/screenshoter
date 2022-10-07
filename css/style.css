@@ -588,8 +588,8 @@ body._lock {
 .block1-fon {
   width: 75px;
   height: 80px;
-  background-image: url("/Project1/img/section1/1.1.png");
+  background-image: url("../img/section1/1.1.png");
 }
 .block1-fon:hover {
-  background: url("/Project1/img/section1/1.png");
+  background: url("../img/section1/1.png");
 }
