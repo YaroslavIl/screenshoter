@@ -2697,3 +2697,66 @@ body._lock {
     height: 44px;
   }
 }
+
+.footer {
+  background: #FAFAFA;
+  padding: 60px 20px;
+}
+@media (max-width: 600px) {
+  .footer {
+    padding: 30px 20px;
+  }
+}
+.footer__container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1000px) {
+  .footer__container {
+    flex-direction: column;
+  }
+}
+.footer__inner {
+  flex: 1 1 auto;
+}
+@media (max-width: 1000px) {
+  .footer__inner {
+    margin-top: 40px;
+  }
+}
+.footer__menu {
+  justify-content: space-around;
+  display: flex;
+}
+@media (max-width: 1000px) {
+  .footer__menu {
+    justify-content: space-between;
+  }
+}
+.footer__link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 160%;
+  color: #131313;
+}
+@media (max-width: 600px) {
+  .footer__link {
+    font-size: 14px;
+  }
+}
+.footer__menu2 {
+  margin-top: 30px;
+}
+.footer__link2 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  color: #828282;
+}
+@media (max-width: 600px) {
+  .footer__link2 {
+    font-size: 12px;
+  }
+}
