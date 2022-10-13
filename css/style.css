@@ -668,25 +668,25 @@ body._lock {
 .block1-fon {
   width: 80px;
   height: 80px;
-  background-image: url("/Project1/img/section1/1.1.png");
+  background-image: url("../img/section1/1.1.png");
 }
 
 .block1-fon2 {
   width: 80px;
   height: 80px;
-  background-image: url("/Project1/img/section1/2.png");
+  background-image: url("../img/section1/2.png");
 }
 
 .block1-fon3 {
   width: 80px;
   height: 80px;
-  background-image: url("/Project1/img/section1/3.png");
+  background-image: url("../img/section1/3.png");
 }
 
 .block1-fon4 {
   width: 80px;
   height: 80px;
-  background-image: url("/Project1/img/section1/4.png");
+  background-image: url("../img/section1/4.png");
 }
 
 .block1__inner:hover .block1__inner-text {
@@ -694,19 +694,19 @@ body._lock {
 }
 
 .block1__inner:hover .block1-fon {
-  background: url("/Project1/img/section1/1.png");
+  background: url("../img/section1/1.png");
 }
 
 .block1__inner:hover .block1-fon2 {
-  background: url("/Project1/img/section1/2.2.png");
+  background: url("../img/section1/2.2.png");
 }
 
 .block1__inner:hover .block1-fon3 {
-  background: url("/Project1/img/section1/3.3.png");
+  background: url("../img/section1/3.3.png");
 }
 
 .block1__inner:hover .block1-fon4 {
-  background: url("/Project1/img/section1/4.4.png");
+  background: url("../img/section1/4.4.png");
 }
 
 /* hover на блокы ===============================================*/
@@ -1537,25 +1537,25 @@ body._lock {
 .block6-fon {
   width: 80px;
   height: 80px;
-  background-image: url("/Project1/img/section6/1.png");
+  background-image: url("../img/section6/1.png");
 }
 
 .block6-fon2 {
   width: 80px;
   height: 80px;
-  background-image: url("/Project1/img/section6/2.png");
+  background-image: url("../img/section6/2.png");
 }
 
 .block6-fon3 {
   width: 80px;
   height: 80px;
-  background-image: url("/Project1/img/section6/3.png");
+  background-image: url("../img/section6/3.png");
 }
 
 .block6-fon4 {
   width: 80px;
   height: 80px;
-  background-image: url("/Project1/img/section6/4.png");
+  background-image: url("../img/section6/4.png");
 }
 
 .block6__inner:hover .block6__inner-text {
@@ -1563,19 +1563,19 @@ body._lock {
 }
 
 .block6__inner:hover .block6-fon {
-  background: url("/Project1/img/section6/1,1.png");
+  background: url("../img/section6/1,1.png");
 }
 
 .block6__inner:hover .block6-fon2 {
-  background: url("/Project1/img/section6/1,2.png");
+  background: url("../img/section6/1,2.png");
 }
 
 .block6__inner:hover .block6-fon3 {
-  background: url("/Project1/img/section6/1,3.png");
+  background: url("../img/section6/1,3.png");
 }
 
 .block6__inner:hover .block6-fon4 {
-  background: url("/Project1/img/section6/1,4.png");
+  background: url("../img/section6/1,4.png");
 }
 
 /* hover на блокы ===============================================*/
@@ -2243,25 +2243,25 @@ body._lock {
 .block8-fon {
   width: 80px;
   height: 80px;
-  background-image: url("/Project1/img/section8/1.png");
+  background-image: url("../img/section8/1.png");
 }
 
 .block8-fon2 {
   width: 80px;
   height: 80px;
-  background-image: url("/Project1/img/section8/2.png");
+  background-image: url("../img/section8/2.png");
 }
 
 .block8-fon3 {
   width: 80px;
   height: 80px;
-  background-image: url("/Project1/img/section8/3.png");
+  background-image: url("../img/section8/3.png");
 }
 
 .block8-fon4 {
   width: 80px;
   height: 80px;
-  background-image: url("/Project1/img/section8/4.png");
+  background-image: url("../img/section8/4.png");
 }
 
 .block8__inner:hover .block8__inner-text {
@@ -2269,19 +2269,19 @@ body._lock {
 }
 
 .block8__inner:hover .block8-fon {
-  background: url("/Project1/img/section8/1.1.png");
+  background: url("../img/section8/1.1.png");
 }
 
 .block8__inner:hover .block8-fon2 {
-  background: url("/Project1/img/section8/1.2.png");
+  background: url("../img/section8/1.2.png");
 }
 
 .block8__inner:hover .block8-fon3 {
-  background: url("/Project1/img/section8/1.3.png");
+  background: url("../img/section8/1.3.png");
 }
 
 .block8__inner:hover .block8-fon4 {
-  background: url("/Project1/img/section8/1.4.png");
+  background: url("../img/section8/1.4.png");
 }
 
 /* hover на блокы ===============================================*/
@@ -2599,8 +2599,8 @@ body._lock {
   position: absolute;
   top: 30%;
   left: 70%;
-  width: 27%;
-  height: 100%;
+  width: 20%;
+  height: 80%;
 }
 .block9__absolut-item3 img {
   width: 100%;
@@ -2660,6 +2660,7 @@ body._lock {
   height: 70px;
   background: linear-gradient(97.02deg, #7421B0 28.9%, #D08EFF 139.98%);
   border-radius: 5px;
+  transition: all 500ms ease-out;
 }
 .block9__btn:hover {
   content: "";
@@ -2683,6 +2684,7 @@ body._lock {
   color: #FFFFFF;
   width: 235px;
   height: 70px;
+  transition: all 1500ms ease;
 }
 .block9__btn-link:hover {
   content: "";

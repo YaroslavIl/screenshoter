@@ -2566,8 +2566,8 @@ padding-bottom: 100px;
                   position: absolute;
                   top: 30%;
                   left: 70%;
-                  width: 27%;
-                  height: 100%;
+                  width: 20%;
+                  height: 80%;
                   & img{
                         width: 100%;
                         height: 100%; 
@@ -2626,6 +2626,7 @@ padding-bottom: 100px;
                   height: 70px;
                   background: linear-gradient(97.02deg, #7421B0 28.9%, #D08EFF 139.98%);
                   border-radius: 5px;
+                  transition: all 500ms ease-out;
                   &:hover{
                         content: '';
                         background: rgba(0,0,0,0);
@@ -2650,6 +2651,7 @@ padding-bottom: 100px;
                   color: #FFFFFF;
                   width: 235px;
                   height: 70px;
+                  transition: all 1500ms ease;
                    &:hover{
                         content: '';
                         color: #7421B0;
